@@ -1,0 +1,5 @@
+Sitemap: https://etmcoeg.com/sitemapindex.xml
+
+User-agent: *
+Allow: /
+Disallow: /AdminPanel/

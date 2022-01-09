@@ -1,0 +1,2 @@
+1.0 Basic website
+1.1 Adding adminpanel, using prepare, sanitize input, verifying code, hide extensions, and logging

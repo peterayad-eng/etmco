@@ -1,0 +1,126 @@
+#login{
+    
+}
+
+        div .logincontainer{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+            .login-content{
+                margin: 20%;
+            }
+
+                .login-logo{
+                    margin-bottom: 5%;
+                }
+
+            .login-form{
+                width: 100%;
+                padding: 5%;
+                border-radius: 20px;
+                background-color:rgba(255, 255, 255, 0.7);
+                border: 3px solid #22AFF2;
+                -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,.2);
+                -moz-box-shadow: 0px 3px 3px rgba(0,0,0,.2);
+                box-shadow: 0px 3px 3px rgba(0,0,0,.2);
+            }
+
+                .form-group {
+                    margin-bottom: 1rem;
+                }
+
+                    label {
+                        display: inline-block;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    .form-control {
+                        display: block;
+                        width: 100%;
+                        height: calc(1.5em + 0.75rem + 2px);
+                        padding: 0.375rem 0.75rem;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        color: #495057;
+                        background-color: #fff;
+                        background-clip: padding-box;
+                        border: 1px solid #ced4da;
+                        border-radius: 0.25rem;
+                        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    }
+
+            .btn-flat {
+                width: 100%;
+                text-align: center;
+                padding: 2%;
+                font-weight: bold;
+                font-size: 16px;
+                background-color: #22AFF2;
+            }
+
+            .backblue{
+                background-color: #22AFF2;
+            }
+
+        .backwhite {
+            background-color: white;
+        }
+
+        .bottom {
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+        }
+
+    .adminpanelfooter{
+        padding-top: 0px;
+    }
+
+        .footerp{
+            
+        }
+
+#adminproducts{
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+    .adminnav{
+        background-color: rgba(255, 255, 255, 0.7);
+        max-width: 100%;
+        -webkit-box-shadow: 0px 3px 3px rgb(0 0 0 / 20%);
+        -moz-box-shadow: 0px 3px 3px rgba(0,0,0,.2);
+        box-shadow: 0px 3px 3px rgb(0 0 0 / 20%);
+    }
+
+                .float-right {
+                    float: right;
+                }
+
+#adminprinters{
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+            .database {
+                font-size: 55px;
+            }
+
+            .save {
+                padding: 1% 2%;
+                font-size: 18px;
+            }
+
+#printereditdata{
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+}

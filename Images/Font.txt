@@ -1,0 +1,12 @@
+Helvetica
+20
+25
+30
+35
+
+
+
+#22AFF2 nav he cy
+#FF00FF mag
+#FFFF00 yell
+#ED3237 red tit
