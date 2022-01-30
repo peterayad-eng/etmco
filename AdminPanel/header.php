@@ -23,7 +23,7 @@
 		<meta property="og:url" content="https://www.etmcoeg.com" />
 		<meta property="og:description" content="We are a group of experienced engineers, and The company is an authorized and official distributer for Canon. We offers low-cost and cost-saving solutions for companies, providing photocopiers such as printers, scanners, and faxes while maintaining high capacity for periodic maintenance and providing spare parts in addition to connecting those devices to the server and sending email from them and vice versa." />
 		<meta property="og:site_name" content="ETMCO" />
-        <meta property="og:image" content="Images/logo.png" />
+        <meta property="og:image" content="../Images/logo.png" />
         
         <meta property="twitter:card" content="website" />
 		<meta property="twitter:title" content="ETMCO" />
