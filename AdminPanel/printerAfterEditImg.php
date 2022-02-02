@@ -44,7 +44,7 @@
                             $editflag=1;
                         }
                     }
-                }while(editflag==1);
+                }while($editflag==1);
                     
                 $select_sqli = $connec->query('SELECT model, image FROM printers WHERE id = ?', $id)->fetchArray();
                 $oldImage = $select_sqli['image'];

@@ -104,7 +104,7 @@
                                 $editflag=1;
                             }
                         }
-                    }while(editflag==1);
+                    }while($editflag==1);
                         
                     $sitepath= "Images/".$imageName;
                     $uploadpath= "../Images/".$imageName;
