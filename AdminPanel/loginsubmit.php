@@ -104,7 +104,11 @@
                 
             if($anattempt > 4 && $timesuban < TIMEAN){
                 $connec->close();
-                $log = "4223\tError \t".$ip." \t".date('Y-m-d H:i:s')." \t".$user." \tAnonymous user has tried to log in with password: '".$password."', and the number of attempts has exceeded the limit \n";
+                if($check_user){
+                    $log = "4223\tError \t".$ip." \t".date('Y-m-d H:i:s')." \t".$user." \tThe user has tried to log in but the number of attempts has exceeded the limit \n";
+                }else{
+                    $log = "4223\tError \t".$ip." \t".date('Y-m-d H:i:s')." \t".$user." \tAnonymous user has tried to log in with password: '".$password."', and the number of attempts has exceeded the limit \n";
+                }
                 file_put_contents('../Logs/Web_log_'.date("Y").'.log', $log, FILE_APPEND);
                 header("location: page-login?error=2");
                 exit;
