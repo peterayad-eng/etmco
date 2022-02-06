@@ -19,6 +19,7 @@
     }
 		
     define("TIME", 1800);
+    $currenttime = date('Y-m-d H:i:s');
     $user = $_SESSION['user'];
     $password = test_input($_POST['pass']);
     $id = $_POST['id'];
