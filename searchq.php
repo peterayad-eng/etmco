@@ -15,6 +15,11 @@
         file_put_contents('./Logs/Web_log_'.date("Y").'.log', $log, FILE_APPEND);
         header("location:javascript://history.go(-1)");
         exit;
+    }elseif(strtolower($_POST['sq'])=='search'){
+        $log = "3104\tWarning \t".$ip." \t".date('Y-m-d H:i:s')." \tSomeone has tried to search with a search query \n";
+        file_put_contents('./Logs/Web_log_'.date("Y").'.log', $log, FILE_APPEND);
+        header("location:javascript://history.go(-1)");
+        exit;
     }else{
         $searchq = test_input(filter_var($_POST['sq'], FILTER_SANITIZE_STRING));
         $resultq = array();
