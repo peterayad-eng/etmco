@@ -66,7 +66,7 @@
     </head>
     <body>
         <div class='fixedbg'></div>
-        <div class='contents'>
+        <div class='content'>
         <header>
             <nav class="navbar navbar-expand-md fixed-top">
                 <div class="container-fluid">
